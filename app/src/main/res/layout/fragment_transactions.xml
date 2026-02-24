@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:padding="20dp">
+
+    <!-- Hint for options -->
+    <TextView
+        android:id="@+id/tvHint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tap to edit • Long press for more options"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:textColor="@color/textSecondary"
+        android:paddingBottom="12dp" />
+
+    <TextView
+        android:id="@+id/tvEmptyTransactions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No transactions yet.\n\nAdd income or expenses to see all your transactions here."
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@color/textSecondary"
+        android:visibility="gone"
+        android:padding="32dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvTransactions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/item_transaction"/>
+</LinearLayout>

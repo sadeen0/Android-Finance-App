@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_income"
+            android:icon="@drawable/arrow_downward_icon"
+            android:title="Income" />
+
+        <item
+            android:id="@+id/nav_expenses"
+            android:icon="@drawable/receipt_icon"
+            android:title="Expenses" />
+
+        <item
+            android:id="@+id/nav_budgets"
+            android:icon="@drawable/budget_icon"
+            android:title="Budgets" />
+
+        <item
+            android:id="@+id/nav_transactions"
+            android:icon="@drawable/checkbook_icon"
+            android:title="Transactions" />
+
+        <item
+            android:id="@+id/nav_statistics"
+            android:icon="@drawable/eye_icon"
+            android:title="Statistics" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profile_icon"
+            android:title="Profile" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/settings_icon"
+            android:title="Settings" />
+
+    </group>
+
+    <group>
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@android:drawable/ic_lock_power_off"
+            android:title="Logout" />
+    </group>
+</menu>

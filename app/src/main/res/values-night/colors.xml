@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Primary Mint Theme (Dark Mode) -->
+    <color name="colorPrimary">#5FB3A2</color>
+    <color name="colorPrimaryDark">#4A9A8A</color>
+    <color name="colorPrimaryLight">#2A4A44</color>
+
+    <!-- Accent -->
+    <color name="colorAccent">#E7D8C9</color>
+
+    <!-- Backgrounds (Dark) -->
+    <color name="background">#121212</color>
+    <color name="cardBackground">#1E1E1E</color>
+    <color name="drawerBackground">#1E1E1E</color>
+
+    <!-- Text (Dark Mode) -->
+    <color name="textPrimary">#E0E0E0</color>
+    <color name="textSecondary">#B0B0B0</color>
+    <color name="textDisabled">#707070</color>
+
+    <!-- Icons -->
+    <color name="iconDefault">#E0E0E0</color>
+    <color name="iconSelected">#5FB3A2</color>
+
+    <!-- Dividers / Borders -->
+    <color name="divider">#2E2E2E</color>
+
+    <color name="red_negative">#EF5350</color>
+    <color name="text_default">#E0E0E0</color>
+
+    <color name="gray">#888888</color>
+
+    <!-- Budget Alert Colors (Dark Mode) -->
+    <color name="budget_alert_background">#3E2723</color>
+    <color name="budget_warning">#78681C</color>
+    <color name="budget_danger">#EF5350</color>
+    <color name="budget_ok">#66BB6A</color>
+    <color name="budget_critical_background">#4E2020</color>
+
+</resources>

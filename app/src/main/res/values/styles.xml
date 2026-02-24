@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="DrawerMenuText">
+        <item name="android:textSize">18sp</item>
+        <item name="android:paddingTop">@dimen/drawer_item_padding_vertical</item>
+        <item name="android:paddingBottom">@dimen/drawer_item_padding_vertical</item>
+    </style>
+
+    <style name="AppChip" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">@color/chip_bg_selector</item>
+        <item name="chipStrokeColor">@color/colorPrimary</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="android:textColor">@color/chip_text_selector</item>
+    </style>
+    <style name="AppMaterialDatePicker" parent="ThemeOverlay.MaterialComponents.MaterialCalendar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSurface">@color/background</item>
+    </style>
+
+</resources>
